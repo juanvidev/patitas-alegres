@@ -1,4 +1,5 @@
 {
+  "homepage": "https://juanvidev.github.io/patitas-alegres",
   "name": "character-nft-template-11",
   "version": "1.0.0",
   "private": true,
@@ -12,10 +13,10 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "craco start",
-    "build": "craco build",
+    "build": "react-scripts build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
   },
