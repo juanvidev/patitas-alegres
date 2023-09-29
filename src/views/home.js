@@ -75,9 +75,10 @@ const Home = (props) => {
               data-role="Nav"
               className="home-nav2"
             >
-              <span className="home-text">Nosotros</span>
-              <span className="home-text01">Misión</span>
-              <span className="home-text02">Visión</span>
+              <a href='#about' className="home-text">Nosotros</a>
+              <a href='#mission' className="home-text01">Misión</a>
+              <a href='#vision' className="home-text02">Visión</a>
+              <a href='#objectives' className="home-text02">Visión</a>
             </nav>
             {/* <div className="home-container2">
               <button className="home-login button">Login</button>
