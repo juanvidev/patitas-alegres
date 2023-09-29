@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/patitas-alegres/static/css/main.2f7269f3.css",
-    "main.js": "/patitas-alegres/static/js/main.75fa0fec.js",
+    "main.js": "/patitas-alegres/static/js/main.a3eb6700.js",
     "index.html": "/patitas-alegres/index.html",
     "main.2f7269f3.css.map": "/patitas-alegres/static/css/main.2f7269f3.css.map",
-    "main.75fa0fec.js.map": "/patitas-alegres/static/js/main.75fa0fec.js.map"
+    "main.a3eb6700.js.map": "/patitas-alegres/static/js/main.a3eb6700.js.map"
   },
   "entrypoints": [
     "static/css/main.2f7269f3.css",
-    "static/js/main.75fa0fec.js"
+    "static/js/main.a3eb6700.js"
   ]
 }
