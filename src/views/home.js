@@ -356,7 +356,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="./icons/twitter.svg"
+                  src="./twitter.svg"
                   className="home-image32"
                 />
               </a>
