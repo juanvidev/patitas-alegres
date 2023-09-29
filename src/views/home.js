@@ -41,10 +41,10 @@ const Home = (props) => {
         <div data-thq="thq-navbar-btn-group" className="home-btn-group">
           <div className="home-socials">
             <button className="social button">
-              <img alt="image" src="icons/twitter.svg" className="home-image" />
+              <img alt="image" src="./Icons/twitter.svg" className="home-image" />
             </button>
             <button className="social button">
-              <img alt="image" src="icons/discord.svg" className="home-image01" />
+              <img alt="image" src="./Icons/discord.svg" className="home-image01" />
             </button>
           </div>
           <a href="#objectives" className="button">Comenzar</a>
@@ -116,7 +116,7 @@ const Home = (props) => {
         </div>
         <div className="home-container3">
           <div className='home-box-description-img'>
-            <img src="images/team.svg" alt="" />
+            <img src="./Images/team.svg" alt="" />
           </div>
           <div className="home-description01">
             <div className="home-content" id="about">
@@ -146,7 +146,7 @@ const Home = (props) => {
             <div className="home-avatar" style={{ alignItems: 'center', justifyContent: 'center' }}>
               <img
                 alt="image"
-                src="./avatars/default-avatar.svg"
+                src="./Avatars/default-avatar.svg"
                 className="home-avatar3"
               />
             </div>
@@ -310,7 +310,7 @@ const Home = (props) => {
             <div className="home-card12">
               <img
                 alt="image"
-                src="./characters/character-10.svg"
+                src="./Characters/character-10.svg"
                 className="home-image31"
               />
             </div>
@@ -356,7 +356,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="./twitter.svg"
+                  src="./Icons/twitter.svg"
                   className="home-image32"
                 />
               </a>
@@ -368,7 +368,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="./icons/discord.svg"
+                  src="./Icons/discord.svg"
                   className="home-image33"
                 />
               </a>
@@ -422,7 +422,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="/icons/twitter.svg"
+                src="./Icons/twitter.svg"
                 className="home-image34"
               />
             </a>
@@ -434,7 +434,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="/icons/discord.svg"
+                src="./Icons/discord.svg"
                 className="home-image35"
               />
             </a>
