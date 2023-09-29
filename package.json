@@ -1,6 +1,6 @@
 {
   "homepage": "https://juanvidev.github.io/patitas-alegres",
-  "name": "character-nft-template-11",
+  "name": "patitas-alegres",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^6.0.0",
     "react-scripts": "^5.0.1"
   }

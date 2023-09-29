@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
+  HashRouter,
   Redirect,
 } from 'react-router-dom'
 
@@ -13,7 +14,7 @@ import NotFound from './views/not-found'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={NotFound} path="**" />

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from "react-router-dom";
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
@@ -26,7 +26,7 @@ const Home = (props) => {
             data-role="Nav"
             className="home-nav"
           >
-            <a href='#about' className="home-button button-clean button">Nosotros</a>
+            <a href="#about" className="home-button button-clean button">Nosotros</a>
             <a href='#mission' className="home-button1 button-clean button">
               Misión
             </a>
@@ -41,10 +41,10 @@ const Home = (props) => {
         <div data-thq="thq-navbar-btn-group" className="home-btn-group">
           <div className="home-socials">
             <button className="social button">
-              <img alt="image" src="/icons/twitter.svg" className="home-image" />
+              <img alt="image" src="patitas-alegres/icons/twitter.svg" className="home-image" />
             </button>
             <button className="social button">
-              <img alt="image" src="/icons/discord.svg" className="home-image01" />
+              <img alt="image" src="patitas-alegres/icons/discord.svg" className="home-image01" />
             </button>
           </div>
           <a href="#objectives" className="button">Comenzar</a>
@@ -112,11 +112,11 @@ const Home = (props) => {
       </section>
       <section className="home-description">
         <div className='home-img-divider'>
-          <img src="/hero-divider.svg" alt="" className='img-divider' />
+          <img src="patitas-alegres/hero-divider.svg" alt="" className='img-divider' />
         </div>
         <div className="home-container3">
           <div className='home-box-description-img'>
-            <img src="/Images/team.svg" alt="" />
+            <img src="patitas-alegres/images/team.svg" alt="" />
           </div>
           <div className="home-description01">
             <div className="home-content" id="about">
@@ -146,7 +146,7 @@ const Home = (props) => {
             <div className="home-avatar" style={{ alignItems: 'center', justifyContent: 'center' }}>
               <img
                 alt="image"
-                src="/Avatars/default-avatar.svg"
+                src="patitas-alegres/avatars/default-avatar.svg"
                 className="home-avatar3"
               />
             </div>
@@ -163,7 +163,7 @@ const Home = (props) => {
                 <span className="home-text07">Learn more</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow.svg"
+                  src="/icons/arrow.svg"
                   className="home-image02"
                 />
               </button> */}
@@ -188,7 +188,7 @@ const Home = (props) => {
                 <span className="home-text08">Learn more</span>
                 <img
                   alt="image"
-                  src="/Icons/arrow-2.svg"
+                  src="/icons/arrow-2.svg"
                   className="home-image03"
                 />
               </button> */}
@@ -254,7 +254,7 @@ const Home = (props) => {
                 <div className="home-item">
                   <img
                     alt="image"
-                    src="/Icons/people.svg"
+                    src="/icons/people.svg"
                     className="home-image26"
                   />
                   <p className="home-header20">Consectetur adipiscing elit</p>
@@ -262,7 +262,7 @@ const Home = (props) => {
                 <div className="home-item1">
                   <img
                     alt="image"
-                    src="/Icons/paper.svg"
+                    src="/icons/paper.svg"
                     className="home-image27"
                   />
                   <p className="home-header21">Consectetur adipiscing elit</p>
@@ -270,7 +270,7 @@ const Home = (props) => {
                 <div className="home-item2">
                   <img
                     alt="image"
-                    src="/Icons/checklist.svg"
+                    src="/icons/checklist.svg"
                     className="home-image28"
                   />
                   <p className="home-header22">Consectetur adipiscing elit</p>
@@ -291,7 +291,7 @@ const Home = (props) => {
             </div>
             <button className="home-view5 button">Ver más</button>
           </div>
-          <img alt="image" src="/group%202273.svg" className="home-image29" />
+          <img alt="image" src="patitas-alegres/group%202273.svg" className="home-image29" />
         </div>
       </section>
 
@@ -301,7 +301,7 @@ const Home = (props) => {
             <div className="home-card11">
               <img
                 alt="image"
-                src="/dog-card1.svg"
+                src="patitas-alegres/dog-card1.svg"
                 className="home-image30"
               />
             </div>
@@ -310,7 +310,7 @@ const Home = (props) => {
             <div className="home-card12">
               <img
                 alt="image"
-                src="/Characters/character-10.svg"
+                src="patitas-alegres/characters/character-10.svg"
                 className="home-image31"
               />
             </div>
@@ -356,7 +356,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="/Icons/twitter.svg"
+                  src="patitas-alegres/icons/twitter.svg"
                   className="home-image32"
                 />
               </a>
@@ -368,7 +368,7 @@ const Home = (props) => {
               >
                 <img
                   alt="image"
-                  src="/Icons/discord.svg"
+                  src="patitas-alegres/icons/discord.svg"
                   className="home-image33"
                 />
               </a>
@@ -422,7 +422,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="/Icons/twitter.svg"
+                src="patitas-alegres/icons/twitter.svg"
                 className="home-image34"
               />
             </a>
@@ -434,7 +434,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="/Icons/discord.svg"
+                src="patitas-alegres/icons/discord.svg"
                 className="home-image35"
               />
             </a>
@@ -446,58 +446,6 @@ const Home = (props) => {
       </footer>
       <div>
         <div className="home-container5">
-          <Script
-            html={`<script>
- /*
-  Accordion - Code Embed
-  */
-  const accordionContainers = document.querySelectorAll('[data-role="accordion-container"]'); // All accordion containers
-  const accordionContents = document.querySelectorAll('[data-role="accordion-content"]'); // All accordion content
-  const accordionIconsClosed = document.querySelectorAll('[data-role="accordion-icon-closed"]'); // All accordion closed icons
-  const accordionIconsOpen = document.querySelectorAll('[data-role="accordion-icon-open"]'); // All accordion open icons
-
-  accordionContents.forEach((accordionContent) => {
-      accordionContent.style.display = "none"; //Hides all accordion contents
-  });
-
-  accordionIconsClosed.forEach((icon) => {
-    icon.style.display = "flex"
-  })
-
-  accordionIconsOpen.forEach((icon) => {
-    icon.style.display = "none"
-  })
-
-  accordionContainers.forEach((accordionContainer, index) => {
-      accordionContainer.addEventListener("click", () => {
-          if (accordionContents[index].style.display === "flex") {
-              // If the accordion is already open, close it
-              accordionContents[index].style.display = "none";
-              accordionIconsClosed[index].style.display = "flex";
-              accordionIconsOpen[index].style.display = "none"
-          } else {
-              // If the accordion is closed, open it
-              accordionContents.forEach((accordionContent) => {
-                  accordionContent.style.display = "none"; //Hides all accordion contents
-              });
-
-              accordionIconsClosed.forEach((accordionIcon) => {
-                  accordionIcon.style.display = "flex"; // Resets all icon transforms to 0deg (default)
-              });
-
-              accordionIconsOpen.forEach((accordionIcon) => {
-                accordionIcon.style.display = "none";
-              })
-
-              accordionContents[index].style.display = "flex"; // Shows accordion content
-              accordionIconsClosed[index].style.display = "none"; // Rotates accordion icon 180deg
-              accordionIconsOpen[index].style.display = "flex";
-          }
-      });
-  });
-</script>
-`}
-          ></Script>
         </div>
       </div>
     </div>
