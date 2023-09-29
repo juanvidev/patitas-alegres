@@ -116,7 +116,7 @@ const Home = (props) => {
         </div>
         <div className="home-container3">
           <div className='home-box-description-img'>
-            <img src="./images/team.svg" alt="" />
+            <img src="images/team.svg" alt="" />
           </div>
           <div className="home-description01">
             <div className="home-content" id="about">
