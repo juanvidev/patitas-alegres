@@ -378,18 +378,18 @@ const Home = (props) => {
             <div className="home-list1">
               <h3 className="home-heading11">Site</h3>
               <div className="home-items">
-                <button className="home-link02 button-clean button">
+                <a href="#about" className="home-link02 button-clean button">
                   Nosotros
-                </button>
-                <button className="home-link03 button-clean button">
+                </a>
+                <a href="#mission" className="home-link03 button-clean button">
                   Misión
-                </button>
-                <button className="home-link04 button-clean button">
+                </a>
+                <a href="#vision" className="home-link04 button-clean button">
                   Visión
-                </button>
-                <button className="home-link05 button-clean button">
+                </a>
+                <a href="#objectives" className="home-link05 button-clean button">
                   Objetivos
-                </button>
+                </a>
               </div>
             </div>
             {/* <div className="home-list2">
@@ -422,7 +422,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="./icons/twitter.svg"
+                src="/icons/twitter.svg"
                 className="home-image34"
               />
             </a>
@@ -434,7 +434,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="icons/discord.svg"
+                src="/icons/discord.svg"
                 className="home-image35"
               />
             </a>
