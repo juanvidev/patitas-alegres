@@ -41,10 +41,10 @@ const Home = (props) => {
         <div data-thq="thq-navbar-btn-group" className="home-btn-group">
           <div className="home-socials">
             <button className="social button">
-              <img alt="image" src="./icons/twitter.svg" className="home-image" />
+              <img alt="image" src="icons/twitter.svg" className="home-image" />
             </button>
             <button className="social button">
-              <img alt="image" src="./icons/discord.svg" className="home-image01" />
+              <img alt="image" src="icons/discord.svg" className="home-image01" />
             </button>
           </div>
           <a href="#objectives" className="button">Comenzar</a>
@@ -434,7 +434,7 @@ const Home = (props) => {
             >
               <img
                 alt="image"
-                src="./icons/discord.svg"
+                src="icons/discord.svg"
                 className="home-image35"
               />
             </a>
