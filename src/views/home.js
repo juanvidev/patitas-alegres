@@ -127,8 +127,8 @@ const Home = (props) => {
 
               </p>
               <p className="home-paragraph1">
-                Con esa inspiración nació 'PatitasAlegres', nuestra idea de negocio enfocada
-                en brindar productos y soluciones innovadoras para nuestros amigos de cuatro patas.
+                Con esa inspiración nació 'PatitasAlegres', nuestra idea de proyecto
+                es buscar soluciones innovadoras para nuestros amigos de cuatro patas.
                 {/* A pesar de nuestra juventud,
                 estamos comprometidos con la excelencia y la innovación,
                 y cada día trabajamos con la convicción de que incluso las ideas más
@@ -290,7 +290,7 @@ const Home = (props) => {
                 Apoyanos en este proyecto y se parte de nuestra historia.
               </p>
             </div>
-            <button className="home-view5 button">Ver más</button>
+            <a href='https://w.app/ng6jpY' target='_blank' className="home-view5 button">Saber más</a>
           </div>
           <img alt="image" src="./group%202273.svg" className="home-image29" />
         </div>
@@ -324,18 +324,18 @@ const Home = (props) => {
               <p className="home-description10">
                 Para mas información puedes escribirnos a &nbsp;
                 <span className="home-text12" style={{ fontWeight: 'bold' }}>
-                  example@test.com
+                  kua456nb@gmail.com
                 </span>
                 <br />
                 <br />
                 O puedes contactarnos a través de WhatsApp
                 <br />
                 <span className="home-text13" style={{ fontWeight: 'bold' }}>
-                  +57 123456789
+                  +57 3212194052
                 </span>
               </p>
             </div>
-            <button className="home-button7 button">Más info</button>
+            <a href="mailto:example@test.com" className="home-button7 button">Escríbenos</a>
           </div>
         </div>
       </section>
