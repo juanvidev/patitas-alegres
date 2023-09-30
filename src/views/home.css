@@ -172,7 +172,6 @@
   height: var(--dl-size-size-xsmall);
 }
 .home-img-divider {
-  margin-top: -80px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1842,11 +1841,6 @@
   display: contents;
 }
 @media (max-width: 991px) {
-  .box-img {
-    width: 180px;
-    min-width: 180px;
-    height: 180px;
-  }
   .home-desktop-menu {
     display: none;
   }
