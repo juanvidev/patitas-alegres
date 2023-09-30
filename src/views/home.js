@@ -141,7 +141,7 @@ const Home = (props) => {
             <div className="home-avatar" style={{ alignItems: 'center', justifyContent: 'center' }}>
               <img
                 alt="image"
-                src="./Avatars/default-avatar.svg"
+                src="./dog-card1.svg"
                 className="home-avatar3"
               />
             </div>
@@ -166,7 +166,11 @@ const Home = (props) => {
           </div>
           <div className="home-card01" id="vision">
             <div className="home-avatar2">
-              <h1 style={{ fontSize: 32 }}>V</h1>
+              <img
+                alt="image"
+                src="./dog-card2.svg"
+                className="home-avatar3"
+              />
             </div>
             <div className="home-main1">
               <div className="home-content02">
