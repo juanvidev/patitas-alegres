@@ -121,20 +121,14 @@ const Home = (props) => {
           </div>
           <div className="home-description01">
             <div className="home-content" id="about">
-              <p className="home-paragraph">
+              <p className="home-description02">
                 Somos un grupo de estudiantes apasionados por la tecnología y los animales,
                 unidos por una visión compartida: mejorar la vida de nuestras mascotas.
 
               </p>
-              <p className="home-paragraph1">
+              <p className="home-description02">
                 Con esa inspiración nació 'PatitasAlegres', nuestra idea de proyecto
                 es buscar soluciones innovadoras para nuestros amigos de cuatro patas.
-                {/* A pesar de nuestra juventud,
-                estamos comprometidos con la excelencia y la innovación,
-                y cada día trabajamos con la convicción de que incluso las ideas más
-                pequeñas pueden generar un impacto positivo en nuestras comunidades.
-                Únete a nosotros en esta emocionante aventura y descubre cómo juntos
-                podemos hacer sonreír a más patitas. */}
               </p>
             </div>
 

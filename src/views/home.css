@@ -1960,19 +1960,26 @@
   }
   .home-description01 {
     gap: var(--dl-space-space-threeunits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-left: 5px;
+    padding-right: 0px;
+    width: 80%;
+    text-align: center;
   }
   .home-content {
     gap: var(--dl-space-space-unit);
   }
   .home-paragraph {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .home-container3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .home-paragraph1 {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 20px;
   }
   .home-cards {
     padding-top: var(--dl-space-space-threeunits);
