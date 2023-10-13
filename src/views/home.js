@@ -288,7 +288,7 @@ const Home = (props) => {
                 Apoyanos en este proyecto y se parte de nuestra historia.
               </p>
             </div>
-            <a href='https://w.app/ng6jpY' target='_blank' className="home-view5 button">Saber más</a>
+            <a href='https://w.app/1BrH5h' target='_blank' className="home-view5 button">Saber más</a>
           </div>
           <img alt="image" src="./group%202273.svg" className="home-image29" />
         </div>
@@ -333,7 +333,7 @@ const Home = (props) => {
                 </span>
               </p>
             </div>
-            <a href="mailto:example@test.com" className="home-button7 button">Escríbenos</a>
+            <a href="mailto:kua456nb@gmail.com" className="home-button7 button">Escríbenos</a>
           </div>
         </div>
       </section>
